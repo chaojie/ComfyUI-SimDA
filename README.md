@@ -20,6 +20,7 @@ stable-diffusion-v1-5
 
 ### Notes
 
+pip install diffusers[torch]==0.11.1
 
 
 ## [SimDA](https://github.com/ChenHsing/SimDA)
