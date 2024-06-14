@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-simda"
+description = "Nodes:SimDATrain, SimDALoader, SimDARun, VHS_FILENAMES_STRING_SimDA"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers[torch]==0.11.1", "transformers>=4.25.1", "bitsandbytes==0.35.4", "decord==0.6.0", "accelerate", "tensorboard", "modelcards", "omegaconf", "einops", "imageio", "ftfy", "xformers"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-SimDA"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SimDA"
+Icon = ""
